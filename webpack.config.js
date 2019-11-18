@@ -1,7 +1,10 @@
+const path = require('path')
+
 module.exports = {
-    entry: './src/index.js',
+    mode: 'development',
+    // entry: './index.js',
+    entry: './lib/mock.js',
     output: {
-        filename: 'bulid.js',
-        path: __dirname.bulid
+        filename: 'mock.js',
     }
 }
