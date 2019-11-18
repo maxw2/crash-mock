@@ -10,10 +10,10 @@ npm install crash-mock --sava
 ## Usage
 ```javascript
 
-const data = {
+const data = [{
   url:'',
   res:{}
-}
+}]
 
 new Mock({
   mode:'ajax',
